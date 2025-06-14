@@ -6,21 +6,26 @@ function toggleMenu() {
 }
 
 const resumeContext = {
-  background: `Arjit Bhardwaj is a MERN Stack Developer and ML/NLP enthusiast, 
+  background: `Arjit Bhardwaj is a MERN Stack Developer and ML/DL enthusiast, 
   currently pursuing Electrical Engineering at Malaviya National Institute of Technology with minors in Computer Science. 
   He is the Treasurer at IEEE Student Branch MNIT and has developed projects like FreeLync 
-  and the IEEE SB Website.`,
+  and the IEEE SB Website. He has also polished his skills in Machine Learning and Deep Learning techniques and showcased them with Music Genre Classifier project.`,
   skills: [
-    "Full Stack Development: HTML, CSS, JavaScript, MongoDB, Express.js, React.js, Bootstrap, MySQL",
+    "Full Stack Development: HTML, CSS, JavaScript, MongoDB, Node.js, Express.js, React.js, Bootstrap",
     "Programming Languages: C++, Python",
-    "Data Science: Matplotlib, Numpy, Pandas",
-    "Other Skills: GitHub, Machine Learning, NLP"
+    "Data Science: Matplotlib, Numpy, Pandas, MySQL",
+    "Other Skills: GitHub, Machine Learning, DL, DBMS, OOPs"
   ],
   projects: [
     {
       name: "FreeLync",
       description: "A freelancer-hirer platform where freelancer can show their work and hirer can book freelancer with detailed earnings project completions and ratings. ",
       technologies: "MERN Stack"
+    },
+    {
+      name: "Music Genre Classifier",
+      description: "A Deep Learning Project fine tuned with EfficientNetB2 with the data processing and data augmentation pipelines for different genres of GTZAN dataset and made the ui with Streamlit and deployed on Render. ",
+      technologies: "Streamlit, Tensorflow, EfficientNetB2, CNN, Render"
     },
     {
       name: "IEEE SB Website",
